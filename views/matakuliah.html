@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ 
+      <title>RESTFUL API MAHASISWA, MATA KULIAH DAN KRS</title>
+ 
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.2.3/css/bulma.min.css">
+</head>
+<body>
+ 
+    <div class="container">
+        <div class="section columns">
+            <div class="column is-8 is-offset-2">
+                <h2 class="title has-text-centered">
+                      MATA KULIAH
+                </h2>
+				<hr/>
+                 
+				 <table class="table is-bordered is-striped is-narrow">
+                    <thead>
+                        <tr>
+                              <th>ID</th>
+                              <th>Kode</th>
+                              <th>Nama</th>
+							  <th>SKS</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                              <td>
+                                  {{result.id}}
+                              </td>
+                              <td>
+                                  {{result.kode}}
+                              </td>
+                              <td>
+                                  {{result.nama}}
+                              </td>
+							  <td>
+                                  {{result.sks}}
+                              </td>
+                        </tr>
+						<tr>
+                              <td>
+                                  {{result1.id}}
+                              </td>
+                              <td>
+                                  {{result1.kode}}
+                              </td>
+                              <td>
+                                  {{result1.nama}}
+                              </td>
+							  <td>
+                                  {{result1.sks}}
+                              </td>
+                        </tr>
+						<tr>
+                              <td>
+                                  {{result2.id}}
+                              </td>
+                              <td>
+                                  {{result2.kode}}
+                              </td>
+                              <td>
+                                  {{result2.nama}}
+                              </td>
+							  <td>
+                                  {{result2.sks}}
+                              </td>
+                        </tr>
+						<tr>
+                              <td>
+                                  {{result3.id}}
+                              </td>
+                              <td>
+                                  {{result3.kode}}
+                              </td>
+                              <td>
+                                  {{result3.nama}}
+                              </td>
+							  <td>
+                                  {{result3.sks}}
+                              </td>
+                        </tr>
+						<tr>
+                              <td>
+                                  {{result4.id}}
+                              </td>
+                              <td>
+                                  {{result4.kode}}
+                              </td>
+                              <td>
+                                  {{result4.nama}}
+                              </td>
+							  <td>
+                                  {{result4.sks}}
+                              </td>
+                        </tr>
+                    </tbody>
+                </table>
+				<center><a href="/">mahasiswa</a>|<a href="/krs/">krs</a>|<a href="/matakuliah/">mata kuliah</a> </center>
+				 
+            </div>
+        </div>
+    </div>
+ 
+</body>
+</html>
